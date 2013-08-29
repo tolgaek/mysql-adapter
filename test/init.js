@@ -6,7 +6,8 @@ global.getConfig = function(options) {
     
     var dbConf = {
         database: 'myapp_test',
-        username: 'root'
+        username: 'root',
+        pool : false
     };
     
     if (options) {
